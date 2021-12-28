@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/workspace/gitpod/build-gcc/output/gcc-arm32/libexec/gcc/arm-eabi/12.0.0'
+libdir='/drone/src/build-gcc/output/gcc-arm32/libexec/gcc/arm-eabi/12.0.0'
