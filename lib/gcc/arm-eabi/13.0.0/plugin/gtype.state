@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "13.0.0 20220919 (experimental)")
+(!version  "13.0.0 20220923 (experimental)")
 (!srcdir  "../../gcc/gcc")
 (!languages 10 ada c cp d fortran go jit lto objc objcp)
 (!fileslist 226 0
@@ -20514,13 +20514,13 @@
      (!type user_struct 1131 
       (!type already_seen 1130)
       gc_pointed_to "int_range<1>"
-      (!srcfileloc  "value-range.h" 420)
+      (!srcfileloc  "value-range.h" 422)
       (!fields 1 
        (!pair  "1"
         (!type undefined 1132 nil  gc_unused "1"
-         (!srcfileloc  "value-range.h" 420)
+         (!srcfileloc  "value-range.h" 422)
         )
-        (!srcfileloc  "value-range.h" 420)
+        (!srcfileloc  "value-range.h" 422)
         nil )
       )
      )
@@ -25519,13 +25519,13 @@
  (!type already_seen 1132)
  
  (!type user_struct 1699 nil  gc_unused "int_range<255>"
-  (!srcfileloc  "value-range.h" 424)
+  (!srcfileloc  "value-range.h" 426)
   (!fields 1 
    (!pair  "255"
     (!type undefined 1700 nil  gc_unused "255"
-     (!srcfileloc  "value-range.h" 424)
+     (!srcfileloc  "value-range.h" 426)
     )
-    (!srcfileloc  "value-range.h" 424)
+    (!srcfileloc  "value-range.h" 426)
     nil )
   )
  )
@@ -27278,7 +27278,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1946 nil  gc_unused "anonymous:../../gcc/gcc/c/c-parser.cc:7843"nil 
+ (!type struct 1946 nil  gc_unused "anonymous:../../gcc/gcc/c/c-parser.cc:7844"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -29639,15 +29639,15 @@
   nil 0 nil nil )
  
  (!type struct 2176 nil  gc_used "macro_export"
-  (!srcfileloc  "cp/module.cc" 16702)
+  (!srcfileloc  "cp/module.cc" 16709)
   (!fields 2 
    (!pair  "def"
     (!type already_seen 19)
-    (!srcfileloc  "cp/module.cc" 16695)
+    (!srcfileloc  "cp/module.cc" 16702)
     nil )
    (!pair  "undef_loc"
     (!type already_seen 2)
-    (!srcfileloc  "cp/module.cc" 16696)
+    (!srcfileloc  "cp/module.cc" 16703)
     nil )
   )
   nil 516 nil nil )
@@ -29661,15 +29661,15 @@
    (!type already_seen 2178)
   )
   gc_pointed_to "vec<macro_export,va_gc>"
-  (!srcfileloc  "cp/module.cc" 16859)
+  (!srcfileloc  "cp/module.cc" 16866)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 78)
-    (!srcfileloc  "cp/module.cc" 16859)
+    (!srcfileloc  "cp/module.cc" 16866)
     nil )
    (!pair  "macro_export"
     (!type already_seen 2176)
-    (!srcfileloc  "cp/module.cc" 16859)
+    (!srcfileloc  "cp/module.cc" 16866)
     nil )
   )
  )
@@ -31053,11 +31053,11 @@
   nil )
  (!pair  "vec<macro_export,va_gc>"
   (!type already_seen 2178)
-  (!srcfileloc  "cp/module.cc" 16859)
+  (!srcfileloc  "cp/module.cc" 16866)
   nil )
  (!pair  "macro_export"
   (!type already_seen 2176)
-  (!srcfileloc  "cp/module.cc" 16698)
+  (!srcfileloc  "cp/module.cc" 16705)
   nil )
  (!pair  "note_defs_table_t"
   (!type already_seen 2172)
@@ -31675,7 +31675,7 @@
   nil )
  (!pair  "c_expr_t"
   (!type already_seen 1873)
-  (!srcfileloc  "c/c-tree.h" 178)
+  (!srcfileloc  "c/c-tree.h" 179)
   nil )
  (!pair  "builtin_type"
   (!type already_seen 2)
@@ -32095,27 +32095,27 @@
   nil )
  (!pair  "int_range_max"
   (!type already_seen 1699)
-  (!srcfileloc  "value-range.h" 424)
+  (!srcfileloc  "value-range.h" 426)
   nil )
  (!pair  "255"
   (!type already_seen 1700)
-  (!srcfileloc  "value-range.h" 424)
+  (!srcfileloc  "value-range.h" 426)
   nil )
  (!pair  "int_range<255>"
   (!type already_seen 1699)
-  (!srcfileloc  "value-range.h" 424)
+  (!srcfileloc  "value-range.h" 426)
   nil )
  (!pair  "value_range"
   (!type already_seen 1131)
-  (!srcfileloc  "value-range.h" 420)
+  (!srcfileloc  "value-range.h" 422)
   nil )
  (!pair  "1"
   (!type already_seen 1132)
-  (!srcfileloc  "value-range.h" 420)
+  (!srcfileloc  "value-range.h" 422)
   nil )
  (!pair  "int_range<1>"
   (!type already_seen 1131)
-  (!srcfileloc  "value-range.h" 420)
+  (!srcfileloc  "value-range.h" 422)
   nil )
  (!pair  "int_range"
   (!type already_seen 1695)
@@ -35667,11 +35667,11 @@
  )
  (!pair  "headers"
   (!type already_seen 385)
-  (!srcfileloc  "cp/module.cc" 16863)
+  (!srcfileloc  "cp/module.cc" 16870)
   nil )
  (!pair  "macro_exports"
   (!type already_seen 2179)
-  (!srcfileloc  "cp/module.cc" 16859)
+  (!srcfileloc  "cp/module.cc" 16866)
   nil )
  (!pair  "note_defs"
   (!type already_seen 2173)
@@ -35801,11 +35801,11 @@
   nil )
  (!pair  "start_cleanup_cnt"
   (!type already_seen 2)
-  (!srcfileloc  "cp/decl.cc" 9396)
+  (!srcfileloc  "cp/decl.cc" 9402)
   nil )
  (!pair  "decomp_type_table"
   (!type already_seen 934)
-  (!srcfileloc  "cp/decl.cc" 8849)
+  (!srcfileloc  "cp/decl.cc" 8855)
   (!options 
    (!option cache string  "")
   )
